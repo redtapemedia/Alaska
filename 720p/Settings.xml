@@ -48,42 +48,42 @@
 				<item id="1">
 					<label>Video</label>
 					<icon>special://skin/media/settings/settings_video.png</icon>
-					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
+					<onclick>XBMC.ActivateWindow(VideosSettings)</onclick>
 				</item>
 				<item id="2">
 					<label>Music</label>
 					<icon>special://skin/media/settings/settings_music.png</icon>				
-					<onclick>XBMC.ActivateWindow(MyPrograms)</onclick>
+					<onclick>XBMC.ActivateWindow(MusicSettings)</onclick>
 				</item>
 				<item id="3">
 					<label>Pictures</label>
 					<icon>special://skin/media/settings/settings_pictures.png</icon>			
-					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
+					<onclick>XBMC.ActivateWindow(PicturesSettings)</onclick>
 				</item>
 				<item id="4">
 					<label>Programs</label>
 					<icon>special://skin/media/settings/settings_programs.png</icon>			
-					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+					<onclick>XBMC.ActivateWindow(ProgramsSettings)</onclick>
 				</item>
 				<item id="5">
 					<label>Weather</label>
 					<icon>special://skin/media/settings/settings_weather.png</icon>			
-					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+					<onclick>XBMC.ActivateWindow(WeatherSettings)</onclick>
 				</item>
 				<item id="6">
 					<label>Network</label>
 					<icon>special://skin/media/settings/settings_network.png</icon>				
-					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+					<onclick>XBMC.ActivateWindow(NetworkSettings)</onclick>
 				</item>
 				<item id="7">
 					<label>System</label>
 					<icon>special://skin/media/settings/settings_system.png</icon>				
-					<onclick>xbmc.activatewindow(2600)</onclick>
+					<onclick>xbmc.activatewindow(SystemSettings)</onclick>
 				</item>
 				<item id="8">
 					<label>Appearance</label>
 					<icon>special://skin/media/settings/settings_appearance.png</icon>		
-					<onclick>XBMC.ActivateWindow(4)</onclick>
+					<onclick>XBMC.ActivateWindow(AppearanceSettings)</onclick>
 				</item>
 				<item id="9">
 					<label>Alaska</label>
