@@ -1,0 +1,86 @@
+<window type="dialog" id="2003">
+	<defaultcontrol>8</defaultcontrol>
+	<zorder>2</zorder>
+	<coordinates>
+	<system>1</system>
+	<posx>0</posx>
+	<posy>0</posy>
+	</coordinates>
+	<controls>
+
+		<control type="group">
+			<posx>583</posx>
+			<posy>115</posy>
+			<include>Animation_CommonFade</include>
+			<control type="label">
+				<width>550</width>
+				<font>Font_PosterTitle</font>
+				<textcolor>InfoTitle</textcolor>
+				<info>ListItem.Title</info>
+			</control>
+			<control type="label">
+				<posx>188</posx>
+				<posy>45</posy>
+				<width>141</width>
+				<height>76</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>Font_InfoYear</font>
+				<textcolor>InfoYear</textcolor>
+				<info>ListItem.Year</info>
+			</control>
+			<control type="label">
+				<posx>350</posx>
+				<posy>45</posy>
+				<width>215</width>
+				<height>76</height>
+				<aligny>center</aligny>
+				<font>Font_InfoGenre</font>
+				<textcolor>InfoGenre</textcolor>
+				<info>ListItem.Duration</info>
+				<wrapmultiline>true</wrapmultiline>
+			</control>			
+			<control type="image">
+				<posy>66</posy>
+				<width>166</width>
+				<height>38</height>
+				<texture>flags/mpaa_restricted.png</texture>
+				<colordiffuse>B9202020</colordiffuse>
+			</control>
+			<control type="label">
+				<posx>125</posx>
+				<posy>130</posy>
+				<width>550</width>
+				<font>Font_InfoDetails</font>
+				<textcolor>InfoDetails</textcolor>
+				<info>ListItem.Director</info>
+			</control>
+			<control type="label">
+				<posx>125</posx>
+				<posy>154</posy>
+				<width>550</width>
+				<font>Font_InfoDetails</font>
+				<textcolor>InfoDetails</textcolor>
+				<info>ListItem.Writer</info>
+			</control>		
+			<control type="textbox">
+				<posx>125</posx>
+				<posy>191</posy>
+				<width>550</width>
+				<height>68</height>
+				<font>Font_InfoCast</font>
+				<textcolor>InfoPlot</textcolor>
+				<info>ListItem.CastAndRole</info>
+			</control>			
+			<control type="textbox">
+				<posy>281</posy>
+				<width>550</width>
+				<height>130</height>
+				<font>Font_InfoPlot</font>
+				<textcolor>InfoPlot</textcolor>
+				<info>ListItem.Plot</info>
+			</control>			
+		</control>
+	
+	</controls>
+</window>
