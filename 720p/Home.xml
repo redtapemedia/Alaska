@@ -34,13 +34,13 @@
 			</focusedlayout>
 			<content>
 				<item id="1">
-					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
-				</item>
-				<item id="2">
 					<onclick>XBMC.ActivateWindow(MyPrograms)</onclick>
 				</item>
+				<item id="2">
+					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+				</item>
 				<item id="3">
-					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
+					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
 				</item>
 				<item id="4">
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
@@ -49,10 +49,10 @@
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
 				</item>
 				<item id="6">
-					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
 				</item>
 				<item id="7">
-					<onclick>xbmc.activatewindow(2600)</onclick>
+					<onclick>XBMC.Activatewindow(2600)</onclick>
 				</item>
 				<item id="8">
 					<onclick>XBMC.ActivateWindow(4)</onclick>
