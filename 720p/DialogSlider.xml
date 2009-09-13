@@ -1,0 +1,12 @@
+<window id="145">
+	<controls>
+
+		<include>DialogBack</include>
+
+		<control type="label">
+			<include>DialogID</include>
+			<label>DialogSlider.xml</label>
+		</control>
+
+	</controls>
+</window>

@@ -1,6 +1,6 @@
 <!--Alaska-->
 
-<window id="25">
+<window id="24">
 	<defaultcontrol always="true">50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
@@ -26,11 +26,10 @@
 		<control type="grouplist" id="7000">
 			<include>WindowMenuVars</include>
 			<posy>330</posy>			
-			<control type="button" id="20">
+			<control type="button" id="2">
 				<include>WindowMenuButton</include>
 				<label>$INFO[Container.ViewMode]</label>
-				<onclick>Container.NextViewMode</onclick>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(2)">
 					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>				
@@ -75,7 +74,7 @@
 			<control type="button" id="40">
 				<include>WindowMenuLabel</include>
 				<label>VIEWTYPE</label>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(2)">
 					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>				

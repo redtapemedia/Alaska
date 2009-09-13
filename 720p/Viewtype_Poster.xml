@@ -22,6 +22,7 @@
 			<include>Animation_ZoomInZoomOut</include>
 			<include>Animation_ZoomedByMenu</include>
 			<visible>!Container.Content(episodes)</visible>
+			<preloaditems>4</preloaditems>
 			<itemlayout width="168" height="245">
 				<control type="image">
 					<posx>1</posx>
@@ -36,7 +37,7 @@
 					<posy>131</posy>
 					<width>162</width>
 					<height>241</height>
-					<texture background="true" diffuse="postermatteNF.png">$INFO[ListItem.Icon]</texture>
+					<texture diffuse="postermatteNF.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>
 					<colordiffuse>89FFFFFF</colordiffuse>
 					<aspectratio scalediffuse="false">stretch</aspectratio>	
@@ -55,7 +56,7 @@
 					<posy>373</posy>
 					<width>162</width>
 					<height>241</height>
-					<texture background="true" flipy="true" diffuse="postermatteNF_reflect.png">$INFO[ListItem.Icon]</texture>
+					<texture flipy="true" diffuse="postermatteNF_reflect.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>
 					<colordiffuse>89FFFFFF</colordiffuse>					
 					<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -68,7 +69,7 @@
 					<posy>20</posy>
 					<width>320</width>
 					<height>476</height>
-					<texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
+					<texture diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>					
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<include>Animation_PosterInfoSlide</include>
