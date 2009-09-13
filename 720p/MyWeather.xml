@@ -6,7 +6,7 @@
   
   <control type="label">
     <include>WindowID</include>
-    <label>MyVideo.xml</label>
+    <label>MyWeather.xml</label>
   </control>
   
 	<control type="grouplist" id="9000">

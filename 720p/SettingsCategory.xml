@@ -1,67 +1,97 @@
 <window id="12">
-<defaultcontrol>3</defaultcontrol>
-<allowoverlay>no</allowoverlay>
+	<defaultcontrol>9999</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
 
-<controls>
-    
-  <control type="label">
-    <include>WindowID</include>
-    <label>SettingsCategory.xml</label>
-  </control>
-  
-	<control type="grouplist" id="3">
-		<description>Button Area</description>
-    <posx>10</posx>
-    <posy>40</posy>
-    <width>150</width>
-    <height>480</height>
-    <itemgap>2</itemgap>
-    <onleft>5</onleft>
-    <onright>5</onright>
-    <onup>3</onup>
-    <ondown>3</ondown>
-    <orientation>vertical</orientation>
-	</control>
-  
-	<control type="grouplist" id="5">
-		<description>Control Area</description>
-    <posx>170</posx>
-    <posy>40</posy>
-    <width>500</width>
-    <height>480</height>
-    <itemgap>2</itemgap>
-    <onleft>3</onleft>
-    <onright>3</onright>
-    <onup>5</onup>
-    <ondown>5</ondown>
-    <orientation>vertical</orientation>
-	</control>
-	<control type="button" id="7">
-		<description>Default Button</description>
-    <textcolor>White</textcolor>
-    <align>left</align>
-    <textoffsetx>5</textoffsetx>
-    <texturefocus border="1">ButtonFo.png</texturefocus>
-    <texturenofocus border="1">ButtonNF.png</texturenofocus>
-	</control>
-	<control type="radiobutton" id="8">
-		<description>Default Radio Button</description>
-    <textcolor>White</textcolor>
-    <align>left</align>
-	</control>
-	<control type="spincontrolex" id="9">
-		<description>Default Spin Control</description>
-    <textcolor>White</textcolor>
-    <align>left</align>
-	</control>
-	<control type="button" id="10">
-		<description>Default Category Button</description>
-    <width>150</width>
-    <textcolor>White</textcolor>
-    <texturefocus border="1">ButtonFo.png</texturefocus>
-    <texturenofocus border="1">ButtonNF.png</texturenofocus>
-	</control>
-  
-</controls>
+	<controls>
+
+		<include>Global_Filter</include>
+		<control type="label">
+			<include>Animation_CommonFadeNoHide</include>
+			<posx>185</posx>
+			<posy>150</posy>
+			<font>Font_SettingsHeading</font>
+			<textcolor>SettingsHeading</textcolor>
+			<label>Setting</label>
+		</control>
+
+		<control type="grouplist" id="3">
+			<description>Button Area</description>
+			<posx>185</posx>
+			<posy>200</posy>
+			<width>300</width>
+			<height>480</height>
+			<itemgap>0</itemgap>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<onup>3</onup>
+			<ondown>3</ondown>
+			<orientation>vertical</orientation>
+			<include>Animation_CommonFadeNoHide</include>
+		</control>
+
+		<control type="grouplist" id="5">
+			<description>Control Area</description>
+			<include>Animation_SettingsFloat</include>
+			<include>Animation_ZoomInZoomOut</include>
+			<posx>470</posx>
+			<posy>180</posy>
+			<width>600</width>
+			<height>600</height>
+			<itemgap>0</itemgap>
+			<onleft>3</onleft>
+			<onright>3</onright>
+			<onup>5</onup>
+			<ondown>5</ondown>
+			<orientation>vertical</orientation>
+		</control>
+		
+		<control type="button" id="7">
+			<description>Default Button</description>
+			<textcolor>SettingsDetail</textcolor>
+			<font>Font_SettingsDetail</font>
+			<align>left</align>
+			<textoffsetx>5</textoffsetx>
+			<focusedcolor>FF990000</focusedcolor>
+			<texturefocus border="1">ButtonFo.png</texturefocus>
+		</control>
+		
+		<control type="radiobutton" id="8">
+			<description>Default Radio Button</description>
+			<textcolor>SettingsDetail</textcolor>
+			<font>Font_SettingsDetail</font>
+			<align>left</align>
+			<focusedcolor>FF990000</focusedcolor>
+			<texturefocus>ButtonFo.png</texturefocus>
+			<textureradiofocus>RadiobuttonFo.png</textureradiofocus>
+			<textureradionofocus>RadiobuttonNF.png</textureradionofocus>
+		</control>
+		
+		<control type="spincontrolex" id="9">
+			<description>Default Spin Control</description>
+			<textcolor>SettingsDetail</textcolor>
+			<font>Font_SettingsDetail</font>
+			<align>left</align>
+			<focusedcolor>FF990000</focusedcolor>
+			<texturefocus>ButtonFo.png</texturefocus>
+			<textureup>ArrowUpNF.png</textureup>
+			<texturedown>ArrowDownNF.png</texturedown>
+			<textureupfocus>ArrowUpFo.png</textureupfocus>
+			<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		</control>
+		
+		<control type="button" id="10">
+			<description>Default Category Button</description>
+			<width>150</width>
+			<textcolor>SettingsDetail</textcolor>
+			<font>Font_Date</font>
+			<texturefocus border="1">ButtonFo.png</texturefocus>
+			<focusedcolor>FF990000</focusedcolor>
+		</control>
+		
+		<include>Global_NowPlaying</include>
+		<include>Global_Time</include>
+		<include>Global_RSS</include>
+
+	</controls>
 
 </window>
