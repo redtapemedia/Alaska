@@ -1,6 +1,17 @@
 <includes>
   
-
+  <default type="label">
+    <posx>0</posx>
+    <posy>0</posy>
+    <label>-</label>
+    <align>left</align>
+    <font>Small</font>
+    <textcolor>Black</textcolor>
+    <focusedcolor>White</focusedcolor>
+    <selectedcolor>White</selectedcolor>
+    <disabledcolor>Red</disabledcolor>
+    <scroll>true</scroll>
+  </default>
 
   <default type="image">
     <posx>0</posx>
