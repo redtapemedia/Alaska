@@ -29,7 +29,7 @@
           <width>465</width>
           <height>30</height>
           <info>ListItem.Label</info>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <scroll>false</scroll>
         </control>
       </itemlayout>
@@ -49,7 +49,7 @@
           <posx>30</posx>
           <width>465</width>
           <height>30</height>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label</info>
         </control>
       </focusedlayout>

@@ -23,14 +23,14 @@
 		<control type="button" id="2">
 			<description>View</description>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 		</control>
 		<control type="button" id="3">
 			<description>Sort</description>
 			<width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 		</control>
@@ -39,7 +39,7 @@
       <width>150</width>
       <label>$LOCALIZE[584]</label>
       <altlabel>$LOCALIZE[585]</altlabel>
-			<textcolor>White</textcolor>
+			<textcolor>Grey</textcolor>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <alttexturenofocus border="1">ButtonNF.png</alttexturenofocus>

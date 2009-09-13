@@ -5,7 +5,8 @@
   
 <controls>
     
-<include>DialogBack</include>
+<include>Global_Background</include>
+<include>Global_Filter</include>
 
   <control type="label">
 	  <include>DialogID</include>
@@ -59,7 +60,7 @@
 			  <posx>30</posx>
 			  <width>465</width>
 			  <height>30</height>
-        <textcolor>White</textcolor>
+        <textcolor>Grey</textcolor>
 			  <info>ListItem.Label</info>
 		  </control>
 	  </focusedlayout>

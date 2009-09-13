@@ -3,6 +3,9 @@
 <allowoverlay>yes</allowoverlay>
   
 <controls>
+
+	<include>Global_Background</include>
+	<include>Global_Filter</include>	
   
   <control type="label">
     <include>WindowID</include>
@@ -24,7 +27,7 @@
 		  <description>Refresh</description>
 		  <label>$LOCALIZE[184]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 	  </control>
@@ -32,14 +35,14 @@
 		  <description>Settings</description>
 		  <label>$LOCALIZE[5]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 		  <onclick>XBMC.ActivateWindow(myweathersettings)</onclick>
 	  </control>
 	  <control type="spincontrolex" id="3">
 		  <description>Location Select</description>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 	  </control>
@@ -53,7 +56,7 @@
 	  <label>-</label>
     <font>Large</font>
     <align>center</align>
-	  <textcolor>White</textcolor>
+	  <textcolor>Grey</textcolor>
   </control>
   <control type="image" id="35">
 	  <description>Day 0 Icon</description>
@@ -71,7 +74,7 @@
     <label>-</label>
     <font>Large</font>
     <align>center</align>
-    <textcolor>White</textcolor>
+    <textcolor>Grey</textcolor>
   </control>
   
 </controls>

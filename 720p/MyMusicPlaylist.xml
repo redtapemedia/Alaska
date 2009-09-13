@@ -23,7 +23,7 @@
 		<control type="button" id="2">
 			<description>View</description>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
 		</control>
@@ -31,7 +31,7 @@
       <description>shuffle</description>
       <label>$LOCALIZE[191]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
     </control>
@@ -39,7 +39,7 @@
       <description>randomize</description>
       <label>$LOCALIZE[13319]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
     </control>
@@ -47,7 +47,7 @@
       <description>repeat</description>
       <label>-</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
     </control>
@@ -55,7 +55,7 @@
       <description>save</description>
       <label>$LOCALIZE[190]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
     </control>
@@ -63,7 +63,7 @@
       <description>clear</description>
       <label>$LOCALIZE[192]</label>
       <width>150</width>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
       <texturefocus border="1">ButtonFo.png</texturefocus>
       <texturenofocus border="1">ButtonNF.png</texturenofocus>
     </control>

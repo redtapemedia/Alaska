@@ -5,10 +5,10 @@
     <posy>0</posy>
     <label>-</label>
     <align>left</align>
-    <font>Small</font>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <font>Font_InfoPlot</font>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
+    <selectedcolor>Grey</selectedcolor>
     <disabledcolor>Red</disabledcolor>
     <scroll>true</scroll>
   </default>
@@ -31,10 +31,10 @@
     <height>30</height>
     <align>center</align>
     <aligny>center</aligny>
-    <font>Small</font>
+    <font>Font_InfoPlot</font>
     <label>-</label>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturefocus>ButtonFo.png</texturefocus>
     <texturenofocus>ButtonNF.png</texturenofocus>
@@ -47,9 +47,9 @@
     <width>150</width>
     <height>30</height>
     <label>-</label>
-    <font>Small</font>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <font>Font_InfoPlot</font>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturenofocus>ButtonNF.png</texturenofocus>
     <texturefocus>ButtonFo.png</texturefocus>
@@ -67,10 +67,10 @@
     <height>30</height>
     <align>center</align>
     <aligny>center</aligny>
-    <font>Small</font>
+    <font>Font_InfoPlot</font>
     <label>-</label>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturenofocus>ButtonNF.png</texturenofocus>
     <texturefocus>ButtonFo.png</texturefocus>
@@ -86,15 +86,15 @@
     <width>150</width>
     <height>30</height>
     <label>-</label>
-    <font>Small</font>
+    <font>Font_InfoPlot</font>
     <texturenofocus>ButtonNF.png</texturenofocus>
     <texturefocus>ButtonFo.png</texturefocus>
     <textureup>ArrowUpNF.png</textureup>
     <texturedown>ArrowDownNF.png</texturedown>
     <textureupfocus>ArrowUpFo.png</textureupfocus>
     <texturedownfocus>ArrowDownFo.png</texturedownfocus>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <align>left</align>
@@ -112,9 +112,9 @@
     <texturedown>ArrowDownNF.png</texturedown>
     <textureupfocus>ArrowUpFo.png</textureupfocus>
     <texturedownfocus>ArrowDownFo.png</texturedownfocus>
-    <font>Small</font>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <font>Font_InfoPlot</font>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <align>left</align>
@@ -135,9 +135,9 @@
     <texturesliderbar>OSDSliderBack.png</texturesliderbar>
     <textureslidernib>OSDSliderNibNF.png</textureslidernib>
     <textureslidernibfocus>OSDSliderNibFO.png</textureslidernibfocus>
-    <font>Small</font>
-    <textcolor>Black</textcolor>
-    <focusedcolor>White</focusedcolor>
+    <font>Font_InfoPlot</font>
+    <textcolor>L_Grey</textcolor>
+    <focusedcolor>Grey</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <textoffsety>0</textoffsety>

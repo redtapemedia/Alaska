@@ -12,7 +12,8 @@
   <control type="group">
     <posx>100</posx>
     <posy>80</posy>
-    <include>DialogBack</include>
+    <include>Global_Background</include>
+	<include>Global_Filter</include>
     <control type="label">
       <include>DialogID</include>
       <label>DialogKeyboard.xml</label>

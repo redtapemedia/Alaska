@@ -3,7 +3,7 @@
 	<include file="Defaults.xml" />
 	<include file="CommonViews.xml" />
   
-	<include name="DialogBack">
+	<include name="Global_Background">
     <!-- x100 y76 -->
 		<control type="image">
 			<width>520</width>

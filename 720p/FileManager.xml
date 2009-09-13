@@ -27,7 +27,7 @@
       <height>45</height>
       <align>left</align>
       <label>-</label>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
     </control>
     <control type="list" id="20">
       <description>Left File List</description>
@@ -61,7 +61,7 @@
           <width>280</width>
           <height>30</height>
           <align>left</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label</info>
           <scroll>false</scroll>
         </control>
@@ -69,7 +69,7 @@
           <posx>310</posx>
           <width>280</width>
           <align>right</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label2</info>
           <scroll>false</scroll>
         </control>
@@ -102,7 +102,7 @@
           <width>280</width>
           <height>30</height>
           <align>left</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label</info>
           <scroll>false</scroll>
         </control>
@@ -110,7 +110,7 @@
           <posx>310</posx>
           <width>280</width>
           <align>right</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label2</info>
           <scroll>false</scroll>
         </control>
@@ -135,7 +135,7 @@
       <height>45</height>
       <align>left</align>
       <label>-</label>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
     </control>
 	</control>
   
@@ -157,7 +157,7 @@
       <height>45</height>
       <align>left</align>
       <label>-</label>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
     </control>
     <control type="list" id="21">
       <description>Right File List</description>
@@ -189,7 +189,7 @@
           <width>280</width>
           <height>30</height>
           <align>left</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label</info>
           <scroll>false</scroll>
         </control>
@@ -197,7 +197,7 @@
           <posx>310</posx>
           <width>280</width>
           <align>right</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label2</info>
           <scroll>false</scroll>
         </control>
@@ -233,7 +233,7 @@
           <posx>30</posx>
           <width>280</width>
           <align>left</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label</info>
           <scroll>false</scroll>
         </control>
@@ -241,7 +241,7 @@
           <posx>310</posx>
           <width>280</width>
           <align>right</align>
-          <textcolor>White</textcolor>
+          <textcolor>Grey</textcolor>
           <info>ListItem.Label2</info>
           <scroll>false</scroll>
         </control>
@@ -266,7 +266,7 @@
       <height>45</height>
       <align>left</align>
       <label>-</label>
-      <textcolor>White</textcolor>
+      <textcolor>Grey</textcolor>
     </control>
   </control>
   
