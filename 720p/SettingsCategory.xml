@@ -1,6 +1,6 @@
 <window id="12">
 	<defaultcontrol>9999</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>yes</allowoverlay>
 
 	<controls>
 
