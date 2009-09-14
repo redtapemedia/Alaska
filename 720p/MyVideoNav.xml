@@ -42,10 +42,10 @@
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>			
 			</control>
-			<control type="button" id="21">
+			<control type="radiobutton" id="14">
 				<include>WindowMenuButton</include>
-				<label>Visible</label>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
+				<label>Hidden</label>				
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(14)">
 					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>			
@@ -90,7 +90,7 @@
 			<control type="button" id="42">
 				<include>WindowMenuLabel</include>
 				<label>UNWATCHED</label>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(14)">
 					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>			
