@@ -17,7 +17,6 @@
 		<include>Global_Filter</include>
 		<include>Object_MovieInfoLines</include>
 		
-		<include>Viewtype_List</include>
 		<include>Viewtype_Poster</include>
 		<include>Viewtype_Episode</include>
 

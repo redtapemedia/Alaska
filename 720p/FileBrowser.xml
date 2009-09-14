@@ -89,7 +89,7 @@
         <posx>30</posx>
         <width>304</width>
         <height>30</height>
-        <textcolor>Grey</textcolor>
+        <textcolor>Black</textcolor>
         <info>ListItem.Label</info>
       </control>
     </focusedlayout>
