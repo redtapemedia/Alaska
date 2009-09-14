@@ -1,6 +1,6 @@
 <!--Alaska-->
 
-<window id="501">
+<window id="502">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
@@ -43,12 +43,8 @@
 			</control>
 			<control type="button" id="21">
 				<include>WindowMenuButton</include>
-				<include condition="![Skin.HasSetting(picturegrid4x3) | Skin.HasSetting(picturegrid7x1) | Skin.HasSetting(picturegrid7x2)]">PictureGrid2x4Button</include>
-				<include condition="Skin.HasSetting(picturegrid4x3)">PictureGrid4x3Button</include>				
-				<include condition="Skin.HasSetting(picturegrid7x1)">PictureGrid7x1Button</include>				
-				<include condition="Skin.HasSetting(picturegrid7x2)">PictureGrid7x2Button</include>				
-				<onclick>ReloadSkin()</onclick>
-				<onclick>SetFocus(50)</onclick>
+				<label>Library</label>
+				<onclick>ReplaceWindow(MyMusicFiles)</onclick>
 				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
 					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
@@ -93,7 +89,7 @@
 			</control>
 			<control type="button" id="42">
 				<include>WindowMenuLabel</include>
-				<label>LAYOUT</label>
+				<label>MODE</label>
 				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(21)">
 					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
