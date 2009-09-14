@@ -108,7 +108,8 @@
 				<font>Font_PosterTitle</font>
 				<textcolor>PosterTitle</textcolor>
 				<info>ListItem.Label</info>
-				<wrapmultiline>true</wrapmultiline>
+				<wrapmultiline>false</wrapmultiline>
+				<scroll>true</scroll>
 				<visible>!Container.Content(seasons)</visible>
 			</control>
 			<control type="label">
