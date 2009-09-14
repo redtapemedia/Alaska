@@ -9,8 +9,7 @@
   
 <controls>
 
-  <include>Global_Background</include>
-  <include>Global_Filter</include>
+  <include>Global_BackgroundFilter</include>
 
   <control type="label">
     <include>DialogID</include>

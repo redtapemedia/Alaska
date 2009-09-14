@@ -3,12 +3,14 @@
   
 <coordinates>
   <system>1</system>
-  <posx>10</posx>
-  <posy>480</posy>
+  <posx>0</posx>
+  <posy>0</posy>
 </coordinates>
   
 <controls>
-
+    
+<include>Global_BackgroundFilter</include>
+  
   <control type="label">
     <posx>45</posx>
     <include>DialogID</include>
