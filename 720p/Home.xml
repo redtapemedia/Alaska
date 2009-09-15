@@ -73,7 +73,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/games/default.png" background="true" >$INFO[Skin.String(CustomGames)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/games/default.png" >$INFO[Skin.String(CustomGames)]</imagepath>
 				</control>				
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -91,7 +91,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/videos/default.png" background="true">$INFO[Skin.String(CustomVideos)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/videos/default.png">$INFO[Skin.String(CustomVideos)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -109,7 +109,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/music/default.png" background="true">$INFO[Skin.String(CustomMusic)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/music/default.png">$INFO[Skin.String(CustomMusic)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -127,7 +127,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/movies/default.png" background="true">$INFO[Skin.String(CustomMovies)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/movies/default.png">$INFO[Skin.String(CustomMovies)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -145,7 +145,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/tvshows/default.png" background="true">$INFO[Skin.String(CustomTV)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/tvshows/default.png">$INFO[Skin.String(CustomTV)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -163,7 +163,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/pictures/default.png" background="true">$INFO[Skin.String(CustomPictures)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/pictures/default.png">$INFO[Skin.String(CustomPictures)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -181,7 +181,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/weather/default.png" background="true">$INFO[Skin.String(CustomWeather)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/weather/default.png">$INFO[Skin.String(CustomWeather)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -199,7 +199,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/settings/default.png" background="true">$INFO[Skin.String(CustomSettings)]</imagepath>
+					<imagepath diffuse="home/homematte.png" fallback="special://skin/media/mainmenu/settings/default.png">$INFO[Skin.String(CustomSettings)]</imagepath>
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">

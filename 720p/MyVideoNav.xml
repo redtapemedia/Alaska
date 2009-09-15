@@ -11,7 +11,7 @@
 		<control type="largeimage">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
-			<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+			<texture>$INFO[ListItem.Property(Fanart_Image)]</texture>
 			<include>Animation_CommonFade</include>
 		</control>
 	
