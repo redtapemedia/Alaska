@@ -121,6 +121,13 @@
 			<filename>alaska_light_nocaps.ttf</filename>
 			<size>21</size>
 			<linespacing>1</linespacing>
+		</font>	
+
+		<font>
+			<name>Font_TVShow</name>
+			<filename>alaska_light_nocaps.ttf</filename>
+			<size>25</size>
+			<linespacing>1</linespacing>
 		</font>
 
 		<font>

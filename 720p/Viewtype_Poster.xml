@@ -4,8 +4,8 @@
 
 	<include name="Viewtype_Poster">
 
-<!-- Browser -->
-	
+		<!-- Browser -->
+
 		<control type="wraplist" id="50">
 			<posx>-188</posx>
 			<posy>65</posy>
@@ -17,12 +17,12 @@
 			<ondown>7000</ondown>			
 			<viewtype label="Poster">list</viewtype>
 			<orientation>horizontal</orientation>
+			<scrolltime>200</scrolltime>
 			<focusposition>4</focusposition>
 			<scrolltime>200</scrolltime>
 			<include>Animation_ZoomInZoomOut</include>
 			<include>Animation_ZoomedByMenu</include>
 			<visible>!Container.Content(episodes)</visible>
-			<preloaditems>4</preloaditems>
 			<itemlayout width="168" height="245">
 				<control type="image">
 					<posx>1</posx>
@@ -89,41 +89,40 @@
 						<effect type="fade" start="0" end="100" time="600" />
 					</animation>					
 				</control>
+
+				<!-- Browser label and flags -->
+
+				<control type="group">
+					<include>Animation_SlideUpFadeOut</include>
+					<include>Animation_HiddenByInfo</include>
+					<include>Animation_ZoomedByMenu</include>			
+					<control type="label">
+						<posx>355</posx>
+						<posy>392</posy>
+						<width>370</width>
+						<height>50</height>
+						<aligny>center</aligny>
+						<font>Font_PosterTitle</font>
+						<textcolor>PosterTitle</textcolor>
+						<info>ListItem.Label</info>
+						<visible>!Container.Content(seasons)</visible>
+					</control>
+					<control type="label">
+						<posx>355</posx>
+						<posy>386</posy>
+						<width>395</width>
+						<font>Font_PosterTitle</font>
+						<textcolor>PosterTitle</textcolor>
+						<label>$INFO[ListItem.TVShowTitle][CR]$INFO[ListItem.Label]</label>
+						<visible>Container.Content(seasons)</visible>
+					</control>			
+				</control>
+
 			</focusedlayout>
+
 		</control>
 
-<!-- Browser label and flags -->
-		
-		<control type="group">
-			<include>Animation_SlideUpFadeOut</include>
-			<include>Animation_HiddenByInfo</include>
-			<include>Animation_ZoomedByMenu</include>			
-			<visible>!Container.Content(episodes)</visible>
-			<control type="label">
-				<posx>840</posx>
-				<posy>466</posy>
-				<width>370</width>
-				<height>50</height>
-				<aligny>center</aligny>
-				<font>Font_PosterTitle</font>
-				<textcolor>PosterTitle</textcolor>
-				<info>ListItem.Label</info>
-				<wrapmultiline>false</wrapmultiline>
-				<scroll>true</scroll>
-				<visible>!Container.Content(seasons)</visible>
-			</control>
-			<control type="label">
-				<posx>840</posx>
-				<posy>460</posy>
-				<width>395</width>
-				<font>Font_PosterTitle</font>
-				<textcolor>PosterTitle</textcolor>
-				<label>$INFO[ListItem.TVShowTitle][CR]$INFO[ListItem.Label]</label>
-				<wrapmultiline>false</wrapmultiline>
-				<visible>Container.Content(seasons)</visible>
-			</control>			
-			<include>PosterMediaFlags</include>			
-		</control>
+		<include>PosterMediaFlags</include>
 
 	</include>
 
