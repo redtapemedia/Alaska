@@ -33,6 +33,7 @@
 					<label>$INFO[ListItem.Episode]</label>
 					<font>Font_EpisodeNumber</font>
 					<textcolor>EpisodeNumber</textcolor>
+					<include>Animation_HiddenByInfo</include>
 				</control>
 				<control type="label">
 					<posx>125</posx>
@@ -43,6 +44,7 @@
 					<label>$INFO[ListItem.Title]</label>
 					<font>Font_EpisodeTitleNF</font>
 					<textcolor>EpisodeNumber</textcolor>
+					<include>Animation_HiddenByInfo</include>
 				</control>
 				<control type="label">
 					<posx>125</posx>
@@ -53,6 +55,7 @@
 					<label>AIRED: $INFO[ListItem.Date]</label>
 					<font>Font_EpisodeDetailNF</font>
 					<textcolor>EpisodeNumber</textcolor>
+					<include>Animation_HiddenByInfo</include>
 				</control>				
 			</itemlayout>
 			<focusedlayout width="633" height="164">
@@ -77,7 +80,7 @@
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="127,70" start="50" end="100" time="200" tween="cubic" easing="out" />
 						<effect type="fade" start="0" end="100" time="200" />
-					</animation>					
+					</animation>
 				</control>
 				<control type="label">
 					<posx>292</posx>
@@ -88,7 +91,8 @@
 					<textcolor>EpisodeLabelF</textcolor>
 					<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="100" time="200" />
-					</animation>					
+					</animation>
+					<include>Animation_HiddenByInfo</include>					
 				</control>
 			</focusedlayout>
 		</control>
@@ -105,6 +109,7 @@
 			<include>Animation_ZoomInZoomOut</include>			
 			<include>Animation_EpisodePlot</include>
 			<include>Animation_EpisodeFloat</include>
+			<include>Animation_HiddenByInfo</include>
 		</control>	
 		
 	</include>
