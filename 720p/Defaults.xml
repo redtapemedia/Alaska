@@ -6,9 +6,8 @@
     <label>-</label>
     <align>left</align>
     <font>Font_InfoPlot</font>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
-    <selectedcolor>Grey</selectedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <scroll>true</scroll>
   </default>
@@ -33,8 +32,8 @@
     <aligny>center</aligny>
     <font>Font_InfoPlot</font>
     <label>-</label>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturefocus>ButtonFo.png</texturefocus>
     <texturenofocus>ButtonNF.png</texturenofocus>
@@ -48,8 +47,8 @@
     <height>30</height>
     <label>-</label>
     <font>Font_InfoPlot</font>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturenofocus>ButtonNF.png</texturenofocus>
     <texturefocus>ButtonFo.png</texturefocus>
@@ -69,8 +68,8 @@
     <aligny>center</aligny>
     <font>Font_InfoPlot</font>
     <label>-</label>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <texturenofocus>ButtonNF.png</texturenofocus>
     <texturefocus>ButtonFo.png</texturefocus>
@@ -93,8 +92,8 @@
     <texturedown>ArrowDownNF.png</texturedown>
     <textureupfocus>ArrowUpFo.png</textureupfocus>
     <texturedownfocus>ArrowDownFo.png</texturedownfocus>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <align>left</align>
@@ -113,8 +112,8 @@
     <textureupfocus>ArrowUpFo.png</textureupfocus>
     <texturedownfocus>ArrowDownFo.png</texturedownfocus>
     <font>Font_InfoPlot</font>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <align>left</align>
@@ -136,26 +135,13 @@
     <textureslidernib>OSDSliderNibNF.png</textureslidernib>
     <textureslidernibfocus>OSDSliderNibFO.png</textureslidernibfocus>
     <font>Font_InfoPlot</font>
-    <textcolor>L_Grey</textcolor>
-    <focusedcolor>Grey</focusedcolor>
+    <textcolor>Grey</textcolor>
+    <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
     <textoffsetx>5</textoffsetx>
     <textoffsety>0</textoffsety>
   </default>
   
-  <default type="progress">
-    <posx>0</posx>
-    <posy>0</posy>
-    <width>280</width>
-    <height>15</height>
-    <info>-</info>
-    <texturebg>ProgressBack.png</texturebg>
-    <lefttexture>ProgressLeft.png</lefttexture>
-    <midtexture>ProgressMid.png</midtexture>
-    <righttexture>ProgressRight.png</righttexture>
-    <overlaytexture>-</overlaytexture>
-  </default>
-
   <default type="slider">
     <posx>0</posx>
     <posy>0</posy>

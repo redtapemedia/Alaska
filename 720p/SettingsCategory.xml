@@ -1,6 +1,6 @@
 <window id="12">
 	<defaultcontrol>9999</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>yes</allowoverlay>
 
 	<controls>
 
@@ -52,7 +52,7 @@
 			<align>left</align>
 			<textoffsetx>5</textoffsetx>
 			<focusedcolor>FF990000</focusedcolor>
-			<texturefocus border="1">ButtonFo.png</texturefocus>
+			<texturefocus>ButtonFo.png</texturefocus>
 		</control>
 		
 		<control type="radiobutton" id="8">
@@ -88,7 +88,6 @@
 			<focusedcolor>FF990000</focusedcolor>
 		</control>
 		
-		<include>Global_NowPlaying</include>
 		<include>Global_Time</include>
 		<include>Global_RSS</include>
 

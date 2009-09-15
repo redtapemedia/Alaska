@@ -2,8 +2,7 @@
 
 <!-- Base colours -->
 
-	<color name="Black">FF000000</color>
-	<color name="L_Grey">FF383737</color>
+	<color name="Black">FF262626</color>
 	<color name="Grey">FF686868</color>
 	<color name="Red">FFFF0000</color>
 

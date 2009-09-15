@@ -9,6 +9,11 @@
   
 <controls>
 
+<<<<<<< HEAD:720p/PlayerControls.xml
+=======
+  <include>Global_BackgroundFilter</include>
+
+>>>>>>> dc9da37d6c3a6f24508c3670d924bc5c8060e9a2:720p/PlayerControls.xml
   <control type="label">
     <include>DialogID</include>
     <label>PlayerControls.xml</label>
