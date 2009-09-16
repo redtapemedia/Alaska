@@ -27,7 +27,7 @@
 				<control type="label">
 					<posx>100</posx>
 					<posy>0</posy>
-					<width>50</width>
+					<width>55</width>
 					<height>60</height>
 					<align>right</align>
 					<aligny>center</aligny>
