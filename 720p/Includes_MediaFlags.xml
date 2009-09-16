@@ -15,7 +15,7 @@
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_ZoomedByMenu</include>
 			<posx>45</posx>
-			<visible>Container.Content(movies)</visible>
+			<visible>Window.IsActive(25) + Container.Content(movies)</visible>
 			<control type="group">
 				<posx>785</posx>
 				<control type="image">
