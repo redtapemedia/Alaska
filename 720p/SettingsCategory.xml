@@ -11,7 +11,7 @@
 			<posy>150</posy>
 			<font>Font_SettingsHeading</font>
 			<textcolor>SettingsHeading</textcolor>
-			<label>Setting</label>
+			<label>SETTINGS</label>
 		</control>
 
 		<control type="grouplist" id="3">
@@ -44,50 +44,50 @@
 			<ondown>5</ondown>
 			<orientation>vertical</orientation>
 		</control>
-		
+
 		<control type="button" id="7">
 			<description>Default Button</description>
-			<textcolor>SettingsDetail</textcolor>
-			<font>Font_SettingsDetail</font>
+			<font>Font_TVShow</font>
+			<textcolor>ListTrackF</textcolor>
 			<align>left</align>
 			<textoffsetx>5</textoffsetx>
-			<focusedcolor>FF990000</focusedcolor>
+			<focusedcolor>Black</focusedcolor>
 			<texturefocus>ButtonFo.png</texturefocus>
 		</control>
-		
+
 		<control type="radiobutton" id="8">
 			<description>Default Radio Button</description>
-			<textcolor>SettingsDetail</textcolor>
-			<font>Font_SettingsDetail</font>
+			<font>Font_TVShow</font>
+			<textcolor>ListTrackF</textcolor>
 			<align>left</align>
-			<focusedcolor>FF990000</focusedcolor>
+			<focusedcolor>Black</focusedcolor>
 			<texturefocus>ButtonFo.png</texturefocus>
 			<textureradiofocus>RadiobuttonFo.png</textureradiofocus>
 			<textureradionofocus>RadiobuttonNF.png</textureradionofocus>
 		</control>
-		
+
 		<control type="spincontrolex" id="9">
 			<description>Default Spin Control</description>
-			<textcolor>SettingsDetail</textcolor>
-			<font>Font_SettingsDetail</font>
+			<font>Font_TVShow</font>
+			<textcolor>ListTrackF</textcolor>
 			<align>left</align>
-			<focusedcolor>FF990000</focusedcolor>
+			<focusedcolor>Black</focusedcolor>
 			<texturefocus>ButtonFo.png</texturefocus>
 			<textureup>ArrowUpNF.png</textureup>
 			<texturedown>ArrowDownNF.png</texturedown>
 			<textureupfocus>ArrowUpFo.png</textureupfocus>
 			<texturedownfocus>ArrowDownFo.png</texturedownfocus>
 		</control>
-		
+
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<width>150</width>
-			<textcolor>SettingsDetail</textcolor>
-			<font>Font_Date</font>
+			<font>Font_TVShow</font>
+			<textcolor>ListTrackF</textcolor>
 			<texturefocus border="1">ButtonFo.png</texturefocus>
-			<focusedcolor>FF990000</focusedcolor>
+			<focusedcolor>Black</focusedcolor>
 		</control>
-		
+
 		<include>Global_Time</include>
 		<include>Global_RSS</include>
 
