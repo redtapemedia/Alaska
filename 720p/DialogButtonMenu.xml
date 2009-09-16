@@ -1,64 +1,102 @@
-<window type="buttonMenu" id="111">
-<defaultcontrol always="true">3110</defaultcontrol>
-  
-<coordinates>
-  <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
-</coordinates>
-  
-<controls>
-  
-<include>Global_BackgroundFilter</include>
+<!--Alaska-->
 
-  <control type="label">
-    <include>DialogID</include>
-    <label>DialogButtonMenu.xml</label>
-  </control>
-  
-	<control type="grouplist" id="1">
-		<posx>10</posx>
-		<posy>40</posy>
-    <width>520</width>
-    <height>382</height>
-		<itemgap>2</itemgap>
-    <onleft>-</onleft>
-    <onright>-</onright>
-    <onup>1</onup>
-    <ondown>1</ondown>
-		<orientation>vertical</orientation>
-    <control type="button" id="3110">
-	    <description>Settings</description>
-	    <label>Settings</label>
-	    <onclick>XBMC.ActivateWindow(4)</onclick>
-      <width>500</width>
-    </control>
-    <control type="button" id="3111">
-	    <description>Reboot</description>
-	    <label>$LOCALIZE[13313]</label>
-	    <onclick>XBMC.Reset()</onclick>
-      <width>500</width>
-    </control>
-    <control type="button" id="3112">
-	    <description>Shutdown</description>
-	    <label>$LOCALIZE[13005]</label>
-	    <onclick>XBMC.ShutDown()</onclick>
-      <width>500</width>
-    </control>
-    <control type="button" id="3113">
-      <description>Restart Xbmc</description>
-      <label>$LOCALIZE[13313] XBMC</label>
-      <onclick>xbmc.RestartApp()</onclick>
-      <width>500</width>
-    </control>
-    <control type="button" id="3114">
-	    <description>System Info Button</description>
-	    <label>$LOCALIZE[130]</label>
-	    <onclick>XBMC.ActivateWindow(7)</onclick>
-      <width>500</width>
-    </control>
-	</control>
-  
-</controls>
-  
+<window type="buttonMenu" id="111">
+	<defaultcontrol always="true">3110</defaultcontrol>
+	<include>Animation_ZoomInMenu</include>
+
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+
+	<controls>
+
+		<control type="image">
+			<posx>-640</posx>
+			<posy>-360</posy>
+			<width>2560</width>
+			<height>1440</height>
+			<texture>filter.png</texture>
+			<colordiffuse>ccFFFFFF</colordiffuse>
+			<animation effect="fade" start="0" end="100" time="200">Visible</animation>			
+			<animation effect="fade" start="100" end="0" time="400">Hidden</animation>				
+		</control>
+
+		<control type="grouplist" id="1">
+			<posy>240</posy>
+			<onleft>-</onleft>
+			<onright>-</onright>
+			<onup>1</onup>
+			<ondown>1</ondown>
+			<orientation>vertical</orientation>
+			<control type="button" id="3110">
+				<description>Settings</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>Settings</label>
+				<onclick>XBMC.ActivateWindow(4)</onclick>
+			</control>
+			<control type="button" id="3111">
+				<description>Reboot</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>$LOCALIZE[13313]</label>
+				<onclick>XBMC.Reset()</onclick>
+			</control>
+			<control type="button" id="3112">
+				<description>Shutdown</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>$LOCALIZE[13005]</label>
+				<onclick>XBMC.ShutDown()</onclick>
+			</control>
+			<control type="button" id="3113">
+				<description>Restart Xbmc</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>$LOCALIZE[13313] XBMC</label>
+				<onclick>xbmc.RestartApp()</onclick>
+			</control>
+			<control type="button" id="3114">
+				<description>System Info Button</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>$LOCALIZE[130]</label>
+				<onclick>XBMC.ActivateWindow(7)</onclick>
+			</control>
+		</control>
+
+	</controls>
+
 </window>
