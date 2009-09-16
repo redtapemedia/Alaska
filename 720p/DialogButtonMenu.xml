@@ -13,7 +13,7 @@
 	<controls>
 
 		<control type="image">
-			<posx>-640</posx>
+			<posx>-600</posx>
 			<posy>-360</posy>
 			<width>2560</width>
 			<height>1440</height>
@@ -44,6 +44,19 @@
 				<onclick>XBMC.ActivateWindow(4)</onclick>
 			</control>
 			<control type="button" id="3111">
+				<description>Filemanager</description>
+				<height>40</height>
+				<width>1280</width>
+				<font>Font_MenuValue</font>
+				<textcolor>MenuValue</textcolor>
+				<focusedcolor>MenuValue</focusedcolor>
+				<animation effect="fade" start="100" end="50" time="200">Focus</animation>
+				<align>center</align>
+				<aligny>middle</aligny>
+				<label>Filemanager</label>
+				<onclick>XBMC.ActivateWindow(3)</onclick>
+			</control>
+			<control type="button" id="3112">
 				<description>Reboot</description>
 				<height>40</height>
 				<width>1280</width>
@@ -56,7 +69,7 @@
 				<label>$LOCALIZE[13313]</label>
 				<onclick>XBMC.Reset()</onclick>
 			</control>
-			<control type="button" id="3112">
+			<control type="button" id="3113">
 				<description>Shutdown</description>
 				<height>40</height>
 				<width>1280</width>
@@ -69,7 +82,7 @@
 				<label>$LOCALIZE[13005]</label>
 				<onclick>XBMC.ShutDown()</onclick>
 			</control>
-			<control type="button" id="3113">
+			<control type="button" id="3114">
 				<description>Restart Xbmc</description>
 				<height>40</height>
 				<width>1280</width>
@@ -82,7 +95,7 @@
 				<label>$LOCALIZE[13313] XBMC</label>
 				<onclick>xbmc.RestartApp()</onclick>
 			</control>
-			<control type="button" id="3114">
+			<control type="button" id="3115">
 				<description>System Info Button</description>
 				<height>40</height>
 				<width>1280</width>
