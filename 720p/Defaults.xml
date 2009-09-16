@@ -20,7 +20,6 @@
     <align>center</align>
     <aligny>center</aligny>
     <texture>-</texture>
-    <aspectratio>keep</aspectratio>
   </default>
 
   <default type="button">

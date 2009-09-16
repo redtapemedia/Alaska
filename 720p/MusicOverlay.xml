@@ -27,7 +27,7 @@
 			</control>
 			<control type="label">
 				<posx>177</posx>
-				<posy>109</posy>
+				<posy>105</posy>
 				<width>1034</width>
 				<font>Font_NowPlayingTrack</font>
 				<label>$INFO[MusicPlayer.Title]</label>
@@ -38,7 +38,7 @@
 				<posy>131</posy>
 				<width>1034</width>
 				<font>Font_NowPlayingArtist</font>
-				<label>$INFO[MusicPlayer.Artist]</label>
+				<label>[B]$INFO[MusicPlayer.Artist][/B] $INFO[MusicPlayer.Album]</label>
 				<textcolor>NowPlayingArtist</textcolor>
 			</control>
 		</control>
