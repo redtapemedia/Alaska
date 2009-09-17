@@ -17,6 +17,7 @@
 		<include>Global_Filter</include>
 		<include>Object_MovieInfoLines</include>
 		
+		<include>Viewtype_Files</include>
 		<include>Viewtype_List</include>
 		<include>Viewtype_Poster</include>
 		<include>Viewtype_Episode</include>
@@ -26,10 +27,11 @@
 		<control type="grouplist" id="7000">
 			<include>WindowMenuVars</include>
 			<posy>330</posy>			
-			<control type="button" id="2">
+			<control type="button" id="20">
 				<include>WindowMenuButton</include>
 				<label>$INFO[Container.ViewMode]</label>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(2)">
+				<onclick>Container.NextViewMode</onclick>
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
 					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>				
@@ -74,7 +76,7 @@
 			<control type="button" id="40">
 				<include>WindowMenuLabel</include>
 				<label>VIEWTYPE</label>
-				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(2)">
+				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
 					<effect type="zoom" center="100,30" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
 				</animation>				

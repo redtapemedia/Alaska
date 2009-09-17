@@ -12,13 +12,14 @@
 			<texture>$INFO[listitem.filenameandpath]</texture>
 			<fadetime>400</fadetime>
 			<aspectratio align="top">keep</aspectratio>
-			<visible>Control.IsVisible(50) + [substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]</visible>
+			<visible>[Control.IsVisible(50) | Control.IsVisible(55)] + [substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]</visible>
 			<include>Animation_BackdropFade</include>
 		</control>
 
 		<include>Global_Filter</include>
 		
 		<include>Viewtype_PictureGrid</include>
+		<include>Viewtype_Files</include>
 
 		<include>Global_ContextFilter</include>		
 		
@@ -28,6 +29,7 @@
 			<control type="button" id="20">
 				<include>WindowMenuButton</include>
 				<label>$INFO[Container.ViewMode]</label>
+				<onclick>Container.NextViewMode</onclick>
 				<animation type="conditional" condition="!ControlGroup(7000).HasFocus(20)">
 					<effect type="zoom" center="100,0" start="100" end="70" time="200" tween="cubic" easing="in" />
 					<effect type="fade" start="100" end="50" time="200" />					
