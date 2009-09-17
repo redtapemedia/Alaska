@@ -16,25 +16,30 @@
 			<width>707</width>
 			<height>183</height>
 			<control type="image">
-				<posx>330</posx>
-				<posy>18</posy>
-				<width>32</width>
-				<height>30</height>
-				<texture>white.png</texture>
-				<aspectratio>stretch</aspectratio>
+				<posx>322</posx>
+				<posy>10</posy>
+				<width>50</width>
+				<height>50</height>
+				<texture>dialogs/volume_back.png</texture>
 			</control>
   			<control type="progress" id="404">
 				<description>Progressbar</description>
-				<posx>330</posx>
-				<posy>18</posy>
+				<posx>331</posx>
+				<posy>19</posy>
 				<width>32</width>
-				<height>30</height>
+				<height>33</height>
 				<texturebg>dialogs/clear.png</texturebg>
 				<lefttexture>-</lefttexture>
 				<midtexture>dialogs/grey.png</midtexture>
 				<righttexture>-</righttexture>
 				<overlaytexture>-</overlaytexture>
 				<info>player.volume</info>
+				<animation type="WindowOpen" reversible="false">
+					<effect type="fade" delay="400" start="0" end="100" time="100" />
+				</animation>
+				<animation type="WindowClose" reversible="false">
+					<effect type="fade" start="100" end="0" time="10" />
+				</animation>
 			</control>
 			<control type="image">
 				<posx>322</posx>
