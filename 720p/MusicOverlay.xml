@@ -46,18 +46,6 @@
 				<label>$INFO[MusicPlayer.Title]</label>
 				<textcolor>NowPlayingTrack</textcolor>
 			</control>
-<<<<<<< HEAD:720p/MusicOverlay.xml
-            <control type="group">
-                <control type="label">
-                    <posx>177</posx>
-                    <posy>131</posy>
-                    <width>1034</width>
-                    <font>Font_NowPlayingArtist</font>
-                    <label>$INFO[MusicPlayer.Artist]</label>
-                    <textcolor>NowPlayingArtist</textcolor>
-                </control>
-            </control>
-=======
 			<control type="label">
 				<posx>177</posx>
 				<posy>131</posy>
@@ -66,7 +54,6 @@
 				<label>[B]$INFO[MusicPlayer.Artist][/B] $INFO[MusicPlayer.Album]</label>
 				<textcolor>NowPlayingArtist</textcolor>
 			</control>
->>>>>>> d7cbba96d2e03f29c508b5a3546a772befcdc03f:720p/MusicOverlay.xml
 		</control>
 	</controls>
 </window>
