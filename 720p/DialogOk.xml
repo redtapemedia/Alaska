@@ -68,12 +68,14 @@
 			<font>Font_MenuValue</font>
 			<textcolor>MenuValue</textcolor>
 			<focusedcolor>MenuValue</focusedcolor>
+			<animation effect="fade" start="100" end="60" time="200">Focus</animation>
 			<label>$LOCALIZE[186]</label>
 			<aligny>centre</aligny>
-			<onleft>11</onleft>
-			<onright>11</onright>
-			<onup>11</onup>
-			<ondown>11</ondown>
+			<onleft>PreviousMenu</onleft>
+			<onright>PreviousMenu</onright>
+			<onup>PreviousMenu</onup>
+			<ondown>PreviousMenu</ondown>
+			<onclick>PreviousMenu</onclick>
 		</control>
 
 	</controls>
