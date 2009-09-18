@@ -8,6 +8,7 @@
     <font>Font_InfoPlot</font>
     <textcolor>Grey</textcolor>
     <focusedcolor>Black</focusedcolor>
+    <selectedcolor>Black</selectedcolor>
     <disabledcolor>Red</disabledcolor>
     <scroll>true</scroll>
   </default>
@@ -27,8 +28,6 @@
     <posy>0</posy>
     <width>150</width>
     <height>30</height>
-    <align>center</align>
-    <aligny>center</aligny>
     <font>Font_InfoPlot</font>
     <label>-</label>
     <textcolor>Grey</textcolor>
@@ -42,29 +41,25 @@
   <default type="togglebutton">
     <posx>0</posx>
     <posy>0</posy>
-    <width>150</width>
+    <width>30</width>
     <height>30</height>
+    <align>center</align>
+    <aligny>center</aligny>
     <label>-</label>
     <font>Font_InfoPlot</font>
     <textcolor>Grey</textcolor>
     <focusedcolor>Black</focusedcolor>
     <disabledcolor>Red</disabledcolor>
-    <texturenofocus>ButtonNF.png</texturenofocus>
-    <texturefocus>ButtonFo.png</texturefocus>
-    <alttexturenofocus>ButtonNF.png</alttexturenofocus>
-    <alttexturefocus>ButtonFo.png</alttexturefocus>
-    <align>center</align>
-    <aligny>center</aligny>
+    <texturenofocus>arrowupnf.png</texturenofocus>
+    <texturefocus>arrowupfo.png</texturefocus>
+    <alttexturenofocus>arrowdownnf.png</alttexturenofocus>
+    <alttexturefocus>arrowdownfo.png</alttexturefocus>
     <pulseonselect>false</pulseonselect>
   </default>
 
   <default type="radiobutton">
     <posx>0</posx>
     <posy>0</posy>
-    <width>150</width>
-    <height>30</height>
-    <align>center</align>
-    <aligny>center</aligny>
     <font>Font_InfoPlot</font>
     <label>-</label>
     <textcolor>Grey</textcolor>

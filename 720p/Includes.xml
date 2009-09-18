@@ -2,16 +2,319 @@
 
 	<include file="Defaults.xml" />
 	<include file="CommonViews.xml" />
-  
-  <include name="DialogID">
-		<posx>10</posx>
-		<posy>10</posy>
-		<font>Small</font>
-		<textcolor>Red</textcolor>
-		<align>left</align>
+
+	<include name="home1">
+		<control type="wraplist" id="300">
+			<posx>0</posx>
+			<posy>0</posy>
+			<height>2</height>
+			<width>8</width>
+			<viewtype>list</viewtype>
+			<scrolltime>0</scrolltime>
+			<orientation>horizontal</orientation>
+			<focusposition>3</focusposition>
+			<itemlayout width="2" height="2">
+			</itemlayout>
+			<focusedlayout width="2" height="2">
+			</focusedlayout>
+			<content>
+				<item id="1">
+					<onclick>XBMC.ActivateWindow(MyPrograms)</onclick>
+				</item>
+				<item id="2">
+					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+				</item>
+				<item id="3">
+					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
+				</item>
+				<item id="4">
+					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+				</item>
+				<item id="5">
+					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+				</item>
+				<item id="6">
+					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
+				</item>
+				<item id="7">
+					<onclick>XBMC.Activatewindow(2600)</onclick>
+				</item>
+				<item id="8">
+					<onclick>XBMC.ActivateWindow(4)</onclick>
+				</item>
+			</content>
+		</control>
+
+		<control type="group">
+			<posx>-600</posx>
+			<posy>170</posy>
+			<include>Animation_HomeSlide</include>
+			<include>Animation_ZoomOutZoomIn</include>	
+			<include>Animation_ZoomedByMenu</include>		
+			<control type="group">
+				<posx>0</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(1)">
+					<effect type="zoom" center="185,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/games/default.png" >$INFO[Skin.String(CustomGames)]</imagepath>
+				</control>				
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Games</label>
+				</control>
+				<include>Object_MainMenuShade</include>				
+			</control>
+
+			<control type="group">
+				<posx>350</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(2)">
+					<effect type="zoom" center="535,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/videos/default.png">$INFO[Skin.String(CustomVideos)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Videos</label>
+				</control>	
+				<include>Object_MainMenuShade</include>				
+			</control>
+
+			<control type="group">
+				<posx>700</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(3)">
+					<effect type="zoom" center="885,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/music/default.png">$INFO[Skin.String(CustomMusic)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Music</label>
+				</control>
+				<include>Object_MainMenuShade</include>				
+			</control>
+
+			<control type="group">
+				<posx>1050</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(4)">
+					<effect type="zoom" center="1235,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/movies/default.png">$INFO[Skin.String(CustomMovies)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Movies</label>
+				</control>				
+				<include>Object_MainMenuShade</include>
+			</control>			
+
+			<control type="group">
+				<posx>1400</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(5)">
+					<effect type="zoom" center="1585,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/tvshows/default.png">$INFO[Skin.String(CustomTV)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>TV Shows</label>
+				</control>
+				<include>Object_MainMenuShade</include>
+			</control>
+
+			<control type="group">
+				<posx>1750</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(6)">
+					<effect type="zoom" center="1935,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/pictures/default.png">$INFO[Skin.String(CustomPictures)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Pictures</label>
+				</control>
+				<include>Object_MainMenuShade</include>
+			</control>
+
+			<control type="group">
+				<posx>2100</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(7)">
+					<effect type="zoom" center="2285,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/weather/default.png">$INFO[Skin.String(CustomWeather)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Weather</label>
+				</control>
+				<include>Object_MainMenuShade</include>				
+			</control>			
+
+			<control type="group">
+				<posx>2450</posx>
+				<posy>0</posy>
+				<animation type="conditional" condition="!Container(300).HasFocus(8)">
+					<effect type="zoom" center="2635,160" tween="cubic" easing="in" time="200" start="100" end="80" />
+				</animation>			
+				<control type="multiimage">
+					<include>Object_MainMenuIconF</include>
+					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/settings/default.png">$INFO[Skin.String(CustomSettings)]</imagepath>
+				</control>	
+				<include>Object_MainMenuFrame</include>
+				<control type="label">
+					<include>Object_MainMenuLabel</include>
+					<label>Settings</label>
+				</control>
+				<include>Object_MainMenuShade</include>
+			</control>	
+		</control>
 	</include>
-	
-  <include name="WindowID">
+
+	<include name="home2">
+		<control type="wraplist" id="300">
+			<posx>-131</posx>
+			<posy>130</posy>
+			<height>500</height>
+			<width>1541</width>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<viewtype>list</viewtype>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<scrolltime>200</scrolltime>
+			<include>Animation_ZoomOutZoomIn</include>				
+			<itemlayout width="300" height="341">
+				<control type="image">
+					<width>171</width>
+					<height>171</height>
+					<posx>50</posx>
+					<posy>91</posy>
+					<texture>$INFO[ListItem.Icon]</texture>
+				</control>			
+			</itemlayout>
+			<focusedlayout width="341" height="341">
+				<control type="image">
+					<width>341</width>
+					<height>341</height>
+					<posx>0</posx>
+					<posy>0</posy>
+					<animation type="Focus" reversible="false">
+						<effect type="zoom" center="171,171" tween="back" easing="out" time="500" start="50" end="100" />
+					</animation>
+					<texture>$INFO[ListItem.Icon]</texture>
+				</control>
+			</focusedlayout>
+			<content>
+				<item id="1">
+					<label>Music</label>
+					<icon>special://skin/media/mainmenu/music.png</icon>
+					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
+					<visible>!Skin.HasSetting(nomusic)</visible>
+				</item>
+				<item id="2">
+					<label>Games</label>
+					<icon>special://skin/media/mainmenu/games.png</icon>				
+					<onclick>XBMC.ActivateWindow(MyPrograms)</onclick>
+					<visible>!Skin.HasSetting(nogames)</visible>
+				</item>
+				<item id="3">
+					<label>Pictures</label>
+					<icon>special://skin/media/mainmenu/pictures.png</icon>			
+					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
+					<visible>!Skin.HasSetting(nopictures)</visible>
+				</item>
+				<item id="4">
+					<label>Movies</label>
+					<icon>special://skin/media/mainmenu/movies.png</icon>			
+					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+					<visible>!Skin.HasSetting(nomovies)</visible>
+				</item>
+				<item id="5">
+					<label>31014</label>
+					<icon>special://skin/media/mainmenu/tvshows.png</icon>			
+					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+					<visible>!Skin.HasSetting(notvshows)</visible>
+				</item>
+				<item id="6">
+					<label>31015</label>
+					<icon>special://skin/media/mainmenu/videos.png</icon>				
+					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+					<visible>!Skin.HasSetting(novideos)</visible>
+				</item>
+				<item id="7">
+					<label>31017</label>
+					<include>BackgroundVarsWeather</include>					
+					<onclick>xbmc.activatewindow(2600)</onclick>
+					<visible>Skin.HasSetting(weather)</visible>
+				</item>
+				<item id="8">
+					<label>31016</label>
+					<icon>special://skin/media/mainmenu/settings.png</icon>				
+					<onclick>XBMC.ActivateWindow(4)</onclick>
+					<visible>!Skin.HasSetting(nosettings)</visible>
+				</item>
+				<item id="9">
+					<include>BackgroundVarsScripts</include>					
+					<label>31020</label>
+					<onclick>XBMC.ActivateWindow(20)</onclick>
+					<visible>Skin.HasSetting(scripts)</visible>
+				</item>
+				<item id="10">
+					<icon>special://skin/media/mainmenu/playdisc.png</icon>						
+					<label>31018</label>
+					<onclick>XBMC.PlayDVD</onclick>
+					<visible>System.HasMediadvd</visible>
+				</item>
+				<item id="12">
+					<include>BackgroundVarsSignOut</include>					
+					<label>31209</label>
+					<onclick>System.LogOff</onclick>
+					<visible>Skin.HasSetting(signout)</visible>
+				</item>				
+				<item id="13">
+					<icon>special://skin/media/mainmenu/shutdown.png</icon>				
+					<label>31019</label>
+					<onclick>XBMC.Shutdown()</onclick>
+					<visible>false</visible>
+				</item>			
+			</content>
+		</control>
+		<control type="image">
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/vignette.png</texture>
+			<colordiffuse>a8FFFFFF</colordiffuse>
+		</control>	
+	</include>
+
+
+	<include name="DialogID">
 		<posx>10</posx>
 		<posy>10</posy>
 		<font>Small</font>
@@ -19,7 +322,15 @@
 		<align>left</align>
 	</include>
 
-<!--Alaska-->
+	<include name="WindowID">
+		<posx>10</posx>
+		<posy>10</posy>
+		<font>Small</font>
+		<textcolor>Red</textcolor>
+		<align>left</align>
+	</include>
+
+	<!--Alaska-->
 
 	<include file="Viewtype_Episode.xml" />
 	<include file="Viewtype_Poster.xml" />
@@ -32,17 +343,17 @@
 	<include file="Includes_Animations.xml" />	
 	<include file="Includes_Backgrounds.xml" />
 
-<!-- Global dimensions -->
-	
+	<!-- Global dimensions -->
+
 	<include name="Dimensions_Fullscreen">
 		<posx>0</posx>
 		<posy>0</posy>
 		<width>1280</width>
 		<height>720</height>
 	</include>
-	
-<!-- Global objects -->
-	
+
+	<!-- Global objects -->
+
 	<include name="Global_BackgroundFilter">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
@@ -59,7 +370,7 @@
 			<texture>filter.png</texture>
 		</control>
 	</include>
-	
+
 	<include name="Global_Filter">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
@@ -68,7 +379,7 @@
 			<animation effect="fade" start="100" end="80" time="400" condition="[Window.IsActive(2) + [substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)] + !Window.Next(Home)]">Conditional</animation>				
 		</control>
 	</include>
-	
+
 	<include name="Global_ContextFilter">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
@@ -79,7 +390,7 @@
 			<animation effect="fade" start="100" end="0" time="400">Hidden</animation>				
 		</control>
 	</include>	
-	
+
 	<include name="Global_Time">
 		<control type="group">
 			<posx>1250</posx>
@@ -108,7 +419,7 @@
 		<textcolor>Time</textcolor>	
 		<align>left</align>				
 	</include>
-	
+
 	<include name="Global_HeadingDetailVars">
 		<posy>40</posy>
 		<width>800</width>
@@ -116,7 +427,7 @@
 		<textcolor>Date</textcolor>		
 		<align>left</align>				
 	</include>	
-	
+
 	<include name="Global_Heading">
 		<control type="group">
 			<posx>30</posx>
@@ -174,7 +485,7 @@
 			</control>				
 		</control>
 	</include>	
-	
+
 	<include name="Global_RSS">
 		<control type="rss" id="1">
 			<posx>0</posx>
@@ -192,9 +503,9 @@
 			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>			
 		</control>
 	</include>
-	
-<!-- Home page objects -->
-	
+
+	<!-- Home page objects -->
+
 	<include name="Object_MainMenuIconNF">
 		<width>349</width>
 		<height>300</height>
@@ -206,7 +517,7 @@
 		<aspectratio align="top" scalediffuse="false">stretch</aspectratio>
 		<animation effect="fade" start="100" end="0" time="400" delay="11000">Hidden</animation>		
 	</include>
-	
+
 	<include name="Object_MainMenuIconF">
 		<width>349</width>
 		<height>300</height>
@@ -219,34 +530,34 @@
 		<animation effect="fade" start="0" end="100" time="400" delay="10000">Visible</animation>
 		<animation effect="fade" start="100" end="0" time="400">Hidden</animation>		
 	</include>
-	
+
 	<include name="Object_MainMenuShade">
 		<control type="image">
 			<posx>10</posx>
 			<posy>264</posy>
 			<width>351</width>
 			<height>47</height>
-			<texture>home/homeshade.png</texture>
+			<texture>mainmenu/homeshade.png</texture>
 		</control>
 	</include>
-	
+
 	<include name="Object_MainMenuFrame">
 		<control type="image">
 			<width>370</width>
 			<height>320</height>
 			<posx>0</posx>
 			<posy>0</posy>
-			<texture>home/frame.png</texture>
+			<texture>mainmenu/frame.png</texture>
 		</control>	
 	</include>
-	
+
 	<include name="Object_MainMenuBacking">
 		<control type="image">
 			<width>10</width>
 			<height>246</height>
 			<posx>351</posx>
 			<posy>47</posy>
-			<texture>home/homebacking.png</texture>
+			<texture>mainmenu/homebacking.png</texture>
 		</control>	
 	</include>	
 
@@ -258,9 +569,20 @@
 		<aligny>center</aligny>
 		<font>Font_MainMenuLabel</font>
 		<textcolor>MainMenuLabel</textcolor>	
+	</include>	
+
+	<include name="Object_MainMenuLabelBig">
+		<posx>-610</posx>
+		<posy>200</posy>
+		<height>200</height>
+		<width>1600</width>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>Font_MainMenu</font>
+		<textcolor>MainMenu</textcolor>
 	</include>
-	
-<!-- Info dialog objects -->
+
+	<!-- Info dialog objects -->
 
 	<include name="Object_MovieInfoLines">
 		<control type="image">
@@ -273,8 +595,8 @@
 			<include>Animation_CommonFade</include>
 		</control>
 	</include>
-	
-<!-- Debug objects -->
+
+	<!-- Debug objects -->
 
 	<include name="Object_DebugGrid">
 		<control type="image">
@@ -283,8 +605,8 @@
 			<visible>false</visible>
 		</control>
 	</include>
-	
-<!-- Scan progress objects -->
+
+	<!-- Scan progress objects -->
 
 	<include name="Object_ScanProgressIcon">
 		<control type="image">
@@ -318,15 +640,15 @@
 			<visible>false</visible>
 		</control>			
 	</include>
-	
-<!-- Settings objects -->
+
+	<!-- Settings objects -->
 
 	<include name="SettingsHeadingVars">
 		<width>300</width>
 		<font>Font_SettingsHeading</font>
 		<textcolor>SettingsHeading</textcolor>
 	</include>
-	
+
 	<include name="SettingsDetailVars">
 		<width>300</width>
 		<posy>50</posy>
@@ -334,8 +656,8 @@
 		<textcolor>SettingsDetail</textcolor>
 		<wrapmultiline>true</wrapmultiline>
 	</include>	
-	
-<!-- Window menus -->
+
+	<!-- Window menus -->
 
 	<include name="WindowMenuVars">
 		<width>1000</width>
@@ -348,7 +670,7 @@
 		<include>Animation_ZoomInMenu</include>		
 		<orientation>horizontal</orientation>	
 	</include>
-	
+
 	<include name="WindowMenuButton">
 		<posx>0</posx>
 		<posy>30</posy>
@@ -358,7 +680,7 @@
 		<font>Font_MenuValue</font>
 		<textcolor>MenuValue</textcolor>
 	</include>
-	
+
 	<include name="WindowMenuLabel">
 		<posx>0</posx>
 		<posy>0</posy>
@@ -369,6 +691,5 @@
 		<textcolor>MenuValue</textcolor>
 		<aligny>bottom</aligny>
 	</include>
-	
-	
+
 </includes>
