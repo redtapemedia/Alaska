@@ -161,6 +161,12 @@
 		</font>
 
 		<font>
+			<name>Font_ListTitleBigger</name>
+			<filename>alaska_black.ttf</filename>
+			<size>36</size>
+		</font>
+
+		<font>
 			<name>Font_ListTitle</name>
 			<filename>alaska_black.ttf</filename>
 			<size>23</size>
