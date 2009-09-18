@@ -9,7 +9,6 @@
 		<effect type="zoom" start="100" end="80" center="auto" easing="in" tween="back" time="300" />
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
-
 	<controls>
 
 		<control type="label">
@@ -17,8 +16,9 @@
 			<label>DialogVolumeBar.xml</label>
 			<visible>Skin.HasSetting(debugmode)</visible>
 		</control>
-		
+
 		<control type="group">
+			<visible>!Window.IsActive(113)</visible>
 			<posx>880</posx>
 			<posy>90</posy>
 			<width>707</width>
@@ -78,9 +78,8 @@
 				<label>$INFO[player.volume]</label>
 			</control>
 
+			<include>Object_DebugGrid</include>
+
 		</control>
-
-		<include>Object_DebugGrid</include>
-
 	</controls>
 </window>
