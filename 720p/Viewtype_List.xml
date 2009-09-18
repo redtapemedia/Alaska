@@ -32,6 +32,7 @@
 					<textcolor>ListTrackNF</textcolor>
 					<selectedcolor>ListTrackNF</selectedcolor>					
 					<label>$INFO[ListItem.TrackNumber]</label>
+					<visible>Container.Content(songs)</visible>
 				</control>
 				<control type="label">
 					<posx>111</posx>
@@ -43,11 +44,12 @@
 					<textcolor>ListTitleNF</textcolor>
 					<selectedcolor>ListTitleNF</selectedcolor>					
 					<label>$INFO[ListItem.Title]</label>
+					<visible>Container.Content(songs)</visible>
 				</control>
 				<control type="label">
-					<posx>125</posx>
+					<posx>73</posx>
 					<posy>0</posy>
-					<width>830</width>
+					<width>750</width>
 					<height>49</height>
 					<aligny>center</aligny>
 					<font>Font_ListTitleNF</font>
