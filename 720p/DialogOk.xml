@@ -14,6 +14,12 @@
 
 		<include>Global_BackgroundFilter</include>
 
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogOk.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+
 		<control type="label" id="1">
 			<description>Heading</description>
 			<posy>200</posy>
@@ -70,13 +76,15 @@
 			<focusedcolor>MenuValue</focusedcolor>
 			<animation effect="fade" start="100" end="60" time="200">Focus</animation>
 			<label>$LOCALIZE[186]</label>
-			<aligny>centre</aligny>
+			<aligny>center</aligny>
 			<onleft>PreviousMenu</onleft>
 			<onright>PreviousMenu</onright>
 			<onup>PreviousMenu</onup>
 			<ondown>PreviousMenu</ondown>
 			<onclick>PreviousMenu</onclick>
 		</control>
+
+		<include>Object_DebugGrid</include>
 
 	</controls>
 

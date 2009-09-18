@@ -12,6 +12,12 @@
 
 	<controls>
 
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogButtonMenu.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+
 		<control type="image">
 			<posx>-600</posx>
 			<posy>-360</posy>
@@ -109,6 +115,8 @@
 				<onclick>XBMC.ActivateWindow(7)</onclick>
 			</control>
 		</control>
+
+		<include>Object_DebugGrid</include>
 
 	</controls>
 

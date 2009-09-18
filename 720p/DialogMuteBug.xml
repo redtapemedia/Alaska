@@ -11,6 +11,13 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogMuteBug.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+		
 		<control type="group">
 			<posx>880</posx>
 			<posy>90</posy>
@@ -44,8 +51,11 @@
 				<font>Font_Date</font>
 				<label>$INFO[player.volume]</label>
 			</control>
-			
+
 		</control>
+
+		<include>Object_DebugGrid</include>
+
 	</controls>
 
 </window>

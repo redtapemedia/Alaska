@@ -4,11 +4,17 @@
 	<defaultcontrol>8</defaultcontrol>
 	<zorder>2</zorder>
 	<coordinates>
-	<system>1</system>
-	<posx>0</posx>
-	<posy>0</posy>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
 	</coordinates>
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogVideoInfo.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
 
 		<control type="group">
 			<posx>583</posx>
@@ -83,6 +89,8 @@
 				<info>ListItem.Plot</info>
 			</control>			
 		</control>
-	
+
+		<include>Object_DebugGrid</include>
+
 	</controls>
 </window>

@@ -1,3 +1,5 @@
+<!--Alaska-->
+
 <window id="12">
 	<defaultcontrol>9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
@@ -5,6 +7,13 @@
 	<controls>
 
 		<include>Global_Filter</include>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>SettingsCategory.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+		
 		<control type="label">
 			<include>Animation_CommonFadeNoHide</include>
 			<posx>185</posx>
@@ -90,6 +99,8 @@
 
 		<include>Global_Time</include>
 		<include>Global_RSS</include>
+
+		<include>Object_DebugGrid</include>
 
 	</controls>
 

@@ -1,3 +1,5 @@
+<!--Alaska-->
+
 <window id="2004">
 	<defaultcontrol>-</defaultcontrol>
 	<animation type="WindowOpen">
@@ -10,6 +12,12 @@
 	</animation>
 
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>VideoOverlay.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
 
 		<control type="group">			
 			<posx>30</posx>
@@ -36,6 +44,8 @@
 				<textcolor>NowPlayingTrack</textcolor>
 			</control>
 		</control>
+
+		<include>Object_DebugGrid</include>
 
 	</controls>
 </window>

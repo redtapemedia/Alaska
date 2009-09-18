@@ -9,7 +9,15 @@
 		<effect type="zoom" start="100" end="80" center="auto" easing="in" tween="back" time="300" />
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
+
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogVolumeBar.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+		
 		<control type="group">
 			<posx>880</posx>
 			<posy>90</posy>
@@ -22,7 +30,7 @@
 				<height>50</height>
 				<texture>dialogs/volume_back.png</texture>
 			</control>
-  			<control type="progress" id="404">
+			<control type="progress" id="404">
 				<description>Progressbar</description>
 				<posx>331</posx>
 				<posy>19</posy>
@@ -69,7 +77,10 @@
 				<font>Font_Date</font>
 				<label>$INFO[player.volume]</label>
 			</control>
-			
+
 		</control>
+
+		<include>Object_DebugGrid</include>
+
 	</controls>
 </window>

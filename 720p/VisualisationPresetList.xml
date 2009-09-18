@@ -14,6 +14,7 @@
   <control type="label">
 	  <include>DialogID</include>
 	  <label>VisualisationPresetList.xml</label>
+	  <visible>Skin.HasSetting(debugmode)</visible>
   </control>
 
   <control type="list" id="2">

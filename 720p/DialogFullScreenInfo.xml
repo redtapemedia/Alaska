@@ -1,45 +1,48 @@
 <window id="142">
-<defaultcontrol>2</defaultcontrol>
+	<defaultcontrol>2</defaultcontrol>
 
-<coordinates>
-  <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
-</coordinates>
-  
-<controls>
-    
-<include>Global_BackgroundFilter</include>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
 
-  <control type="label">
-    <include>DialogID</include>
-    <label>DialogFullScreenInfo.xml</label>
-  </control>
+	<controls>
 
-  <control type="videowindow" id="1">
-    <posx>320</posx>
-    <posy>90</posy>
-    <width>390</width>
-    <height>390</height>
-    <visible>Window.IsActive(0)</visible>
-  </control>
-  
-	<control type="label" id="0">
-		<description>Play Time</description>
-		<posx>10</posx>
-		<posy>40</posy>
-		<label>-</label>
-		<info>VideoPlayer.Time</info>
-	</control>
-	<control type="label" id="0">
-		<description>Album Info</description>
-		<posx>10</posx>
-		<posy>72</posy>
-    <width>500</width>
-		<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, | ]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
-		<scroll>true</scroll>
-	</control>
-  
-</controls>
+		<include>Global_BackgroundFilter</include>
+
+		<control type="label">
+			<include>DialogID</include>
+			<label>DialogFullScreenInfo.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+
+		<control type="videowindow" id="1">
+			<posx>320</posx>
+			<posy>90</posy>
+			<width>390</width>
+			<height>390</height>
+			<visible>Window.IsActive(0)</visible>
+		</control>
+
+		<control type="label" id="0">
+			<description>Play Time</description>
+			<posx>10</posx>
+			<posy>40</posy>
+			<label>-</label>
+			<info>VideoPlayer.Time</info>
+		</control>
+		<control type="label" id="0">
+			<description>Album Info</description>
+			<posx>10</posx>
+			<posy>72</posy>
+			<width>500</width>
+			<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, | ]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
+			<scroll>true</scroll>
+		</control>
+
+		<include>Object_DebugGrid</include>
+
+	</controls>
 
 </window>

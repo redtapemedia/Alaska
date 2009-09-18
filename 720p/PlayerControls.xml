@@ -14,6 +14,7 @@
   <control type="label">
     <include>DialogID</include>
     <label>PlayerControls.xml</label>
+	<visible>Skin.HasSetting(debugmode)</visible>
   </control>
 
 	<control type="grouplist" id="1">

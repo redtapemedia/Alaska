@@ -10,6 +10,13 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogVideoScan.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+	
 		<control type="group">
 			<posx>880</posx>
 			<posy>90</posy>
@@ -99,5 +106,8 @@
 				<textcolor>d0ffffff</textcolor>
 			</control-->
 		</control>
+		
+		<include>Object_DebugGrid</include>
+		
 	</controls>
 </window>

@@ -9,6 +9,12 @@
 		<include>Global_Filter</include>
 
 		<control type="label">
+			<include>WindowID</include>
+			<label>Home.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+
+		<control type="label">
 			<posx>-320</posx>
 			<posy>330</posy>
 			<width>1920</width>
@@ -20,12 +26,13 @@
 			<include>Animation_ZoomOutZoomIn</include>			
 		</control>
 
-		<include condition="!Skin.HasSetting(althome)">home1</include>
+		<include condition="!Skin.HasSetting(althome)">home2</include>
 		<include condition="Skin.HasSetting(althome)">home2</include>
 
 		<include>Global_Time</include>
 		<include>Global_RSS</include>
-		<include>Object_ScanProgressIcon</include>
+
+		<include>Object_DebugGrid</include>
 
 	</controls>
 </window>

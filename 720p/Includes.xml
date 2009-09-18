@@ -325,7 +325,7 @@
 	<include name="WindowID">
 		<posx>10</posx>
 		<posy>10</posy>
-		<font>Small</font>
+		<font>Large</font>
 		<textcolor>Red</textcolor>
 		<align>left</align>
 	</include>
@@ -602,43 +602,8 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>debuggrid.png</texture>
-			<visible>false</visible>
+			<visible>Skin.HasSetting(debugmode)</visible>
 		</control>
-	</include>
-
-	<!-- Scan progress objects -->
-
-	<include name="Object_ScanProgressIcon">
-		<control type="image">
-			<width>50</width>
-			<height>50</height>
-			<posx>1207</posx>
-			<posy>107</posy>
-			<texture>dialogs/scanprogress.png</texture>
-			<visible>false</visible>
-		</control>
-		<control type="label">
-			<width>400</width>
-			<height>50</height>
-			<posx>1200</posx>
-			<posy>112</posy>
-			<align>right</align>
-			<font>Font_ProgressDialog</font>
-			<textcolor>ProgressDialog</textcolor>
-			<label>DOWNLOADING MOVIE INFORMATION</label>
-			<visible>false</visible>
-		</control>
-		<control type="label">
-			<width>400</width>
-			<height>50</height>
-			<posx>1200</posx>
-			<posy>132</posy>
-			<align>right</align>
-			<font>Font_ProgressDialog</font>
-			<textcolor>ProgressDialog</textcolor>
-			<label>WHERE THE WILD THINGS ARE</label>
-			<visible>false</visible>
-		</control>			
 	</include>
 
 	<!-- Settings objects -->

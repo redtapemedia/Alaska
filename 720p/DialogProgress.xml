@@ -11,6 +11,13 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>DialogPregress.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+	
 		<control type="group">
 			<posx>880</posx>
 			<posy>90</posy>
@@ -80,16 +87,18 @@
 				<align>right</align>
 				<font>Font_ProgressLabelBig</font>
 				<textcolor>d0ffffff</textcolor>
-			</control>
+			</control-->
 			<control type="label" id="4">
-				<posx>280</posx>
-				<posy>70</posy>
+				<posx>310</posx>
+				<posy>35</posy>
 				<width>627</width>
 				<height>51</height>
 				<align>right</align>
-				<font>Font_ProgressLabelBig</font>
-				<textcolor>d0ffffff</textcolor>
-			</control-->
+				<font>Font_Date</font>
+				<textcolor>Date</textcolor>
+				<label>-</label>
+				<scroll>true</scroll>
+			</control>
 		</control>
 		<control type="button" id="10">
 			<description>Cancel</description>
@@ -103,5 +112,8 @@
 			<onup>10</onup>
 			<ondown>10</ondown>
 		</control>
+		
+		<include>Object_DebugGrid</include>
+		
 	</controls>
 </window>
