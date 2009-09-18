@@ -26,7 +26,7 @@
 			<include>Animation_ZoomOutZoomIn</include>			
 		</control>
 
-		<include condition="!Skin.HasSetting(althome)">home2</include>
+		<include condition="!Skin.HasSetting(althome)">home1</include>
 		<include condition="Skin.HasSetting(althome)">home2</include>
 
 		<include>Global_Time</include>
