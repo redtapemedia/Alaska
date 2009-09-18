@@ -87,7 +87,7 @@
 				<align>right</align>
 				<font>Font_ProgressLabelBig</font>
 				<textcolor>d0ffffff</textcolor>
-			</control-->
+			</control>
 			<control type="label" id="4">
 				<posx>310</posx>
 				<posy>35</posy>
@@ -98,7 +98,7 @@
 				<textcolor>Date</textcolor>
 				<label>-</label>
 				<scroll>true</scroll>
-			</control>
+			</control-->
 		</control>
 		<control type="button" id="10">
 			<description>Cancel</description>
