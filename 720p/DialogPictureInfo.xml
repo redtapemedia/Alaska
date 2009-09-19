@@ -1,75 +1,78 @@
 <window id="139">
-<defaultcontrol>5</defaultcontrol>
-  
-<coordinates>
-  <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
-</coordinates>
-  
-<controls>
-    
-<include>Global_BackgroundFilter</include>
+	<defaultcontrol>5</defaultcontrol>
 
-  <control type="label">
-	  <include>DialogID</include>
-	  <label>DialogPictureInfo.xml</label>
-  </control>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
 
-  <control type="list" id="5">
-	  <posx>10</posx>
-	  <posy>40</posy>
-	  <width>520</width>
-	  <height>382</height>
-	  <onleft>450</onleft>
-	  <onright>450</onright>
-	  <onup>450</onup>
-	  <ondown>450</ondown>
-	  <itemlayout height="32">
-      <control type="image">
-        <width>500</width>
-        <height>30</height>
-        <texture>ButtonNF.png</texture>
-      </control>
-		  <control type="label">
-			  <posx>5</posx>
-			  <width>465</width>
-        <height>30</height>
-			  <info>ListItem.Label</info>
-        <scroll>false</scroll>
-		  </control>
-      <control type="label">
-        <posx>487</posx>
-        <width>465</width>
-        <height>30</height>
-        <align>right</align>
-        <info>ListItem.Label2</info>
-      </control>
-	  </itemlayout>
-	  <focusedlayout height="32">
-		  <control type="image">
-			  <width>500</width>
-			  <height>30</height>
-			  <texture>ButtonFo.png</texture>
-		  </control>
-		  <control type="label">
-			  <posx>5</posx>
-			  <width>465</width>
-			  <height>30</height>
-        <textcolor>Grey</textcolor>
-			  <info>ListItem.Label</info>
-		  </control>
-      <control type="label">
-        <posx>487</posx>
-        <width>465</width>
-        <height>30</height>
-        <align>right</align>
-        <textcolor>Grey</textcolor>
-        <info>ListItem.Label2</info>
-      </control>
-	  </focusedlayout>
-  </control>
+	<controls>
 
-</controls>
-  
+		<include>Global_BackgroundFilter</include>
+
+		<control type="label">
+			<include>DialogID</include>
+			<label>DialogPictureInfo.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+
+		<control type="list" id="5">
+			<posx>10</posx>
+			<posy>40</posy>
+			<width>520</width>
+			<height>382</height>
+			<onleft>450</onleft>
+			<onright>450</onright>
+			<onup>450</onup>
+			<ondown>450</ondown>
+			<itemlayout height="32">
+				<control type="image">
+					<width>500</width>
+					<height>30</height>
+					<texture>ButtonNF.png</texture>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<width>465</width>
+					<height>30</height>
+					<info>ListItem.Label</info>
+					<scroll>false</scroll>
+				</control>
+				<control type="label">
+					<posx>487</posx>
+					<width>465</width>
+					<height>30</height>
+					<align>right</align>
+					<info>ListItem.Label2</info>
+				</control>
+			</itemlayout>
+			<focusedlayout height="32">
+				<control type="image">
+					<width>500</width>
+					<height>30</height>
+					<texture>ButtonFo.png</texture>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<width>465</width>
+					<height>30</height>
+					<textcolor>Grey</textcolor>
+					<info>ListItem.Label</info>
+				</control>
+				<control type="label">
+					<posx>487</posx>
+					<width>465</width>
+					<height>30</height>
+					<align>right</align>
+					<textcolor>Grey</textcolor>
+					<info>ListItem.Label2</info>
+				</control>
+			</focusedlayout>
+		</control>
+
+		<include>Object_DebugGrid</include>
+
+	</controls>
+
 </window>

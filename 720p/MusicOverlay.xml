@@ -1,18 +1,9 @@
+<!--Alaska-->
+
 <window id="2004">
-<defaultcontrol>2</defaultcontrol>
-  
-<coordinates>
-  <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
-</coordinates>
 
-<controls>
-
-
-  
-</controls>
 	<defaultcontrol>-</defaultcontrol>
+
 	<animation type="WindowOpen">
 		<effect type="slide" start="-200,0" end="0,0" time="600" tween="cubic" easing="out" />
 		<effect type="fade" start="0" end="100" time="600" />
@@ -21,7 +12,15 @@
 		<effect type="slide" start="0,0" end="-200,0" time="600" tween="cubic" easing="out" />
 		<effect type="fade" start="100" end="0" time="600" />
 	</animation>
+
 	<controls>
+
+		<control type="label">
+			<include>WindowID</include>
+			<label>MusicOverlay.xml</label>
+			<visible>Skin.HasSetting(debugmode)</visible>
+		</control>
+		
 		<control type="group">
 			<posx>30</posx>
 			<posy>490</posy>
@@ -55,5 +54,9 @@
 				<textcolor>NowPlayingArtist</textcolor>
 			</control>
 		</control>
+
+		<include>Object_DebugGrid</include>
+
 	</controls>
+	
 </window>

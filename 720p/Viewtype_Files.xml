@@ -37,10 +37,10 @@
 				<control type="label">
 					<posx>120</posx>
 					<posy>0</posy>
-					<width>830</width>
+					<width>750</width>
 					<height>103</height>
 					<aligny>center</aligny>
-					<font>Font_ListTitleBig</font>
+					<font>Font_ListTitleBigger</font>
 					<textcolor>ListTitleF</textcolor>
 					<selectedcolor>ListTitleF</selectedcolor>					
 					<label>$INFO[ListItem.Label]</label>
