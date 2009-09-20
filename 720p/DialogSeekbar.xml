@@ -1,6 +1,6 @@
-﻿<window id="115">
+<window id="115">
 	<defaultcontrol>901</defaultcontrol>
-	<visible>player.seeking | player.displayafterSeek | player.paused | player.forwarding | player.rewinding</visible>
+    <visible>Window.IsActive(2005) + !Window.IsActive(2901) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 
 	<coordinates>
 		<system>1</system>
