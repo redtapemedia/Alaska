@@ -67,7 +67,11 @@
 			<texturedown flipy="true">-</texturedown>
 			<textureupfocus>-</textureupfocus>
 			<texturedownfocus flipy="true">-</texturedownfocus>
+<<<<<<< HEAD:720p/DialogAlbumInfo.xml
 			<autoscroll delay="6000" time="2000" repeat="10000"/>
+=======
+			<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
+>>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/DialogAlbumInfo.xml
 		</control>
 		<control type="list" id="50">
 			<description>Tracks</description>

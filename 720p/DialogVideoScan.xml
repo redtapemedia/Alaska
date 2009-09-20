@@ -1,4 +1,5 @@
 <<<<<<< HEAD:720p/DialogVideoScan.xml
+<<<<<<< HEAD:720p/DialogVideoScan.xml
 <window id="133">
     <zorder>1</zorder>
     <coordinates>
@@ -45,6 +46,10 @@
 =======
 <!--Alaska-->
 
+=======
+<!--Alaska-->
+
+>>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/DialogVideoScan.xml
 <window id="133">
 	<animation type="WindowOpen" reversible="false">
 		<effect type="zoom" start="80" end="100" center="auto" delay="200" easing="out" tween="back" time="300" />
@@ -155,5 +160,8 @@
 		<include>Object_DebugGrid</include>
 		
 	</controls>
+<<<<<<< HEAD:720p/DialogVideoScan.xml
 >>>>>>> e50d641396290b8cd434e002e02dd57d041cb453:720p/DialogVideoScan.xml
+=======
+>>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/DialogVideoScan.xml
 </window>
