@@ -131,7 +131,7 @@
 			<include>Animation_SettingsFloat</include>
 			<include>Animation_ZoomInZoomOut</include>
 			<posx>360</posx>
-			<posy>150</posy>
+			<posy>175</posy>
 			<width>740</width>
 			<height>600</height>
 			<itemgap>6</itemgap>
@@ -186,6 +186,7 @@
 		</control>
 
 		<include>Global_Time</include>
+		<include>Setting_Heading</include>
 		<include>Global_RSS</include>
 
 		<include>Object_DebugGrid</include>
