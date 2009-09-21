@@ -6,18 +6,6 @@
 
 	<controls>
 
-<<<<<<< HEAD:720p/SettingsCategory.xml
-		<include>Global_Filter</include>
-
-		<control type="label">
-			<include>WindowID</include>
-			<label>SettingsCategory.xml</label>
-			<visible>Skin.HasSetting(debugmode)</visible>
-		</control>
-		
-		<control type="label">
-			<include>Animation_CommonFadeNoHide</include>
-=======
 		<include>Global_Filter</include>	
 
 		<control type="image">
@@ -116,7 +104,6 @@
 
 		<control type="label">
 			<include>Animation_CommonFadeNoHide</include>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/SettingsCategory.xml
 			<posx>150</posx>
 			<posy>125</posy>
 			<font>Font_SettingsHeading</font>

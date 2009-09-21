@@ -127,16 +127,7 @@
 					<height>90</height>
 					<aligny>center</aligny>
 					<font>Font_ListTitleBigger</font>
-<<<<<<< HEAD:720p/Viewtype_Files.xml
-<<<<<<< HEAD:720p/Viewtype_Files.xml
 					<textcolor>ListTitleF</textcolor>
-					<selectedcolor>ListTitleF</selectedcolor>					
-=======
-					<textcolor>ListTitleF</textcolor>					
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Viewtype_Files.xml
-=======
-					<textcolor>ListTitleF</textcolor>
->>>>>>> f2b60a52d5fd20c5cdc9f994bba0ba891c8aa35f:720p/Viewtype_Files.xml
 					<label>$INFO[ListItem.Label]</label>
 					<visible>![Window.IsActive(25) | Window.IsActive(502)]</visible>
 				</control>

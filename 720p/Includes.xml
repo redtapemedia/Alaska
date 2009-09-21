@@ -59,11 +59,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/games/default.png" >$INFO[Skin.String(CustomGames)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/games//" >$INFO[Skin.String(CustomGames)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>				
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -81,11 +77,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/videos/default.png">$INFO[Skin.String(CustomVideos)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/videos//">$INFO[Skin.String(CustomVideos)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -103,11 +95,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/music/default.png">$INFO[Skin.String(CustomMusic)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/music//">$INFO[Skin.String(CustomMusic)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -125,11 +113,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/movies/default.png">$INFO[Skin.String(CustomMovies)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/movies//">$INFO[Skin.String(CustomMovies)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -147,11 +131,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/tvshows/default.png">$INFO[Skin.String(CustomTV)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/tvshows//">$INFO[Skin.String(CustomTV)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -169,11 +149,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/pictures/default.png">$INFO[Skin.String(CustomPictures)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/pictures//">$INFO[Skin.String(CustomPictures)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -191,9 +167,6 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/weather/default.png">$INFO[Skin.String(CustomWeather)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/weather//">$INFO[Skin.String(CustomWeather)]</imagepath>
 					<visible>!Skin.HasSetting(homeweather)</visible>
 				</control>			
@@ -201,7 +174,6 @@
 					<include>Object_MainMenuIconF</include>
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/weather/weather.png">mainmenu/weather/$INFO[Weather.FanartCode]/</imagepath>
 					<visible>Skin.HasSetting(homeweather)</visible>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -219,11 +191,7 @@
 				</animation>			
 				<control type="multiimage">
 					<include>Object_MainMenuIconF</include>
-<<<<<<< HEAD:720p/Includes.xml
-					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/mainmenu/settings/default.png">$INFO[Skin.String(CustomSettings)]</imagepath>
-=======
 					<imagepath diffuse="mainmenu/homematte.png" fallback="special://skin/media/backdrops/settings//">$INFO[Skin.String(CustomSettings)]</imagepath>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 				</control>	
 				<include>Object_MainMenuFrame</include>
 				<control type="label">
@@ -544,21 +512,6 @@
 
 	<!-- Home page objects -->
 
-<<<<<<< HEAD:720p/Includes.xml
-	<include name="Object_MainMenuIconNF">
-		<width>349</width>
-		<height>300</height>
-		<posx>10</posx>
-		<posy>10</posy>
-		<timeperimage>999999</timeperimage>
-		<randomize>true</randomize>
-		<fadetime>400</fadetime>					
-		<aspectratio align="top" scalediffuse="false">stretch</aspectratio>
-		<animation effect="fade" start="100" end="0" time="400" delay="11000">Hidden</animation>		
-	</include>
-
-=======
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 	<include name="Object_MainMenuIconF">
 		<width>349</width>
 		<height>260</height>
@@ -643,11 +596,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>debuggrid.png</texture>
-<<<<<<< HEAD:720p/Includes.xml
-			<visible>Skin.HasSetting(debugmode)</visible>
-=======
 			<visible>Skin.HasSetting(debuggrid)</visible>
->>>>>>> f5e782382b404d0c015985e73045efe94afb4103:720p/Includes.xml
 		</control>
 	</include>
 
